@@ -1,8 +1,36 @@
+/*********************************************TAG SELECTORS************************************************/
+
+
+
 h1{
   color: red;
   font-size: 100px;
 }
 
-img {
-  background-color: white;
+img:hover {
+  background-color: gold;
+}
+
+
+
+/*********************************************ID SELECTORS*********************************************/
+
+.bacon{
+  background-color: green;
+}
+
+.eggs{
+  background-color: red;
+}
+
+.circular {
+  border-radius: 100%
+}
+
+#heading{
+  color: blue;
+}
+
+#big {
+  font-size: 100px;
 }
